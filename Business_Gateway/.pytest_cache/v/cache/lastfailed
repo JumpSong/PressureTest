@@ -1,0 +1,5 @@
+{
+  "TeacherServer_Tests.py": true,
+  "TeacherServer_Tests.py::Run_Teacherserver_Test::test_microclass_extinfo_\u83b7\u53d6\u6307\u5b9a\u5fae\u8bfe\u5802\u6269\u5c55\u4fe1\u606f": true,
+  "TeacherServer_Tests.py::Run_Teacherserver_Test::test_microclass_teachereveluation_\u67e5\u8be2\u5fae\u8bfe\u5802\u6559\u5b66\u8bc4\u4ef7": true
+}

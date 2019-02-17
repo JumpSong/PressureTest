@@ -1,0 +1,3 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"POST","/v1/souls/list",211539,61,1600,1477,10,5721,34153,67.33
+"None","Total",211539,61,1600,1477,10,5721,34153,67.33

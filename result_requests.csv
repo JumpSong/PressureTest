@@ -1,0 +1,3 @@
+"Method","Name","# requests","# failures","Median response time","Average response time","Min response time","Max response time","Average Content Size","Requests/s"
+"POST","/v1/faces/userlogotags?mySoulId=0",14640,0,95,237,4,1181,2484,375.54
+"None","Total",14640,0,95,237,4,1181,2484,375.54
