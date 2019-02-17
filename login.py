@@ -45,25 +45,25 @@ class loginCommon():
             obj = t.post('/v1/logins/users', data=json.dumps(data), headers=header)
             WorkAuthorization = json.loads(obj.text).get('WorkAuthorization')
             if WorkAuthorization:
-                Worktoken.append(WorkAuthorization)
+                Worktoken.append(WoAuthorization)
                 Worktoken.append('\n')
             LoveAuthorization = json.loads(obj.text).get('LoveAuthorization')
             if LoveAuthorization:
-                Lovetoken.append(LoveAuthorization)
+                Lovetoken.append(LoAuthorization)
                 Lovetoken.append('\n')
             LifeAuthorization = json.loads(obj.text).get('LifeAuthorization')
             if  LoveAuthorization:
-                lifetoken.append(LifeAuthorization)
+                lifetoken.append(LiAuthorization)
                 lifetoken.append('\n')
 
-        with open('token/WorkAuthorization.txt', 'w') as f:
-            f.writelines(Worktoken)
+        with open('token/WoAuthorization.txt', 'w') as f:
+            f.writelines(Wotoken)
 
-        with open('token/LoveAuthorization.txt','w') as l:
-            l.writelines(Lovetoken)
+        with open('token/LoAuthorization.txt','w') as l:
+            l.writelines(Lotoken)
 
-        with open('token/LifeAuthorization.txt', 'w') as i:
-            i.writelines(lifetoken)
+        with open('token/LiAuthorization.txt', 'w') as i:
+            i.writelines(litoken)
 
 
 
